@@ -8,8 +8,7 @@ export class Movie {
     availDate,
     thumbnail,
     showByIndex,
-    billboardTitle,
-    preview,
+    billboardTitle
   ) {
     this.id = id;
     this.name = moviename;
@@ -20,6 +19,5 @@ export class Movie {
     this.thumbnail = thumbnail;
     this.showByIndex = showByIndex;
     this.billboardTitle = billboardTitle;
-    this.preview = preview;
   }
 }
