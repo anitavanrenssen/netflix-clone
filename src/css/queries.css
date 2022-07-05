@@ -1,0 +1,163 @@
+
+@media (max-width: 1690px) {
+    .movie-list {
+        grid-template-columns: repeat(4, 300px);
+      }
+
+      .header::after {
+        padding-top: 38%;
+      }
+}
+
+@media (max-width: 1332px) {
+    .movie-list {
+        grid-template-columns: repeat(3, 300px);
+      }
+
+      .header::after {
+        padding-top: 42%;
+      }
+
+      .header {
+        height: auto;
+      }
+}
+
+@media (max-width: 1038px) {
+    .movie-list {
+        grid-template-columns: repeat(2, 300px);
+        column-gap: 1%;
+        row-gap: 5%;
+      }
+
+      .header::after {
+        font-size: 78px;
+      }
+
+      .genre-heading {
+        margin: 108px 0 16px 32px;
+      }
+}
+
+@media (max-width: 767px) {
+
+    .navbar-collapse {
+        color:#141414;
+        background-color: rgba(255, 255, 255, 0.6);
+        backdrop-filter: blur(5px);
+        z-index: 2;
+        padding: 32px;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .nav-bar a {
+        color: #141414 !important;
+      }
+
+      .profile-icon, .username-display{
+          display: none;
+      }
+
+      .logout {
+          margin-top: 26px;
+          font-weight: 600;
+      }
+
+      .header::after {
+        font-size: 54px;
+      }
+}
+
+@media (max-width: 684px) {
+    .movie-list {
+        grid-template-columns: repeat(2, 200px);
+      }
+
+      .header::after {
+        font-size: 28px;
+      }
+
+      .card {
+        width: 200px;
+      }
+
+      .movie-preview {
+        width: 200px; 
+      }
+
+      .movie-details {
+        font-size: 10px;
+        padding-top: 8px;
+      }
+      
+      .movie-duration-genre {
+        font-size: 8px;
+      }
+
+      .add-to-list-icon {
+        width: 30px;
+        height: 30px;
+      }
+}
+
+@media (max-width: 474px) {
+    .movie-list {
+        grid-template-columns: repeat(2, 150px);
+      }
+
+      .card {
+        width: 150px;
+      }
+
+      .movie-preview {
+        width: 150px; 
+        height: 90px;
+      }
+
+      .login-form {
+        width: 350px;
+      }
+}
+
+@media (max-width: 360px) {
+    .movie-list {
+        grid-template-columns: repeat(2, 100px);
+      }
+
+      .header::after {
+        font-size: 20px;
+      }
+
+      .card {
+        width: 100px;
+      }
+
+      .movie-details {
+        font-size: 10px;
+        
+      }
+
+      .movie-duration-genre {
+        display: none;
+      }
+
+      .add-to-list-icon {
+        width: 22px;
+        height: 22px;
+      }
+
+      .movie-preview {
+        width: 100px; 
+        height: 70px;
+      }
+
+      .card-body {
+        height: 110px;
+        display: inline;
+        text-align: center;
+      }
+
+      .login-form {
+        width: 300px;
+      }
+}
